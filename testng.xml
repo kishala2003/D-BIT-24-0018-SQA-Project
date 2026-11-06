@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LinkedIn UI Suite" parallel="false">
+  <test name="Login Tests"><classes><class name="lk.kdu.sqa.tests.LoginTest"/></classes></test>
+  <test name="Search Tests"><classes><class name="lk.kdu.sqa.tests.SearchTest"/></classes></test>
+  <test name="Result Tests"><classes><class name="lk.kdu.sqa.tests.SearchResultTest"/></classes></test>
+</suite>
